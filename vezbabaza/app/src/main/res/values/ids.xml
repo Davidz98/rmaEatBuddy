@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item
+        type="id"
+        name="ingredientObject"
+        />
+    <item
+        type="id"
+        name="isSelected"
+        />
+    <item
+        type="id"
+        name="value"
+        />
+</resources>

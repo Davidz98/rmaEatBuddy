@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Eat Buddy</string>
+    <string name="question">Not a member yet?</string>
+    <string name="question2">Have an account?</string>
+    <string name="emptyFields">Please fill both fields.</string>
+    <string name="signupFields">Please provide both username and password.</string>
+    <string name="allGood"></string>
+    <string name="noMatch">No match, please try again.</string>
+    <string name="usernameExists">Username already exists, try other.</string>
+    <string name="signup">Sign up!</string>
+    <string name="login">Log in.</string>
+    <string name="chooseIngredients">Choose Ingredients</string>
+    <string name="meat">Meat</string>
+    <string name="fruits">Fruits</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="myRecipes">My Recipes</string>
+    <string name="next">Next</string>
+    <string name="ingredientQuantity">Set Ingredient Quantity</string>
+    <string name="mealsNutritiveValue">Meals Nutritive Value:</string>
+    <string name="carbohydrates">carbohydrates:</string>
+    <string name="protein">protein:</string>
+    <string name="fat">fat:</string>
+    <string name="happyPreparation">Happy Preparation!</string>
+    <string name="yourRecipes">Your Recipes:</string>
+    <string name="yourUsername">Your username</string>
+    <string name="yourPassword">Your password</string>
+    <string name="errorHappened">Error happened, pls try again.</string>
+    <string name="questionText">What would you like?</string>
+    <string name="showMyRecipesButton">Show My Recipes</string>
+    <string name="createNewRecipe">Create New Recipe</string>
+    <string name="viewRecipe">View Recipe</string>
+    <string name="noValue">...</string>
+    <string name="nutval">NutVal:</string>
+    <string name="chhy">ChHy:</string>
+    <string name="proteins">Protein:</string>
+    <string name="fats">Fat:</string>
+    <string name="totalG">Total:</string>
+    <string name="createNewRecipee">Create New Recipe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

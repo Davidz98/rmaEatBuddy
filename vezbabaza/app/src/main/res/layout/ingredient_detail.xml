@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frainLayoutIngredientO"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#50000000"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ingredientImage"
+                android:layout_width="87dp"
+                android:layout_height="95dp"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <LinearLayout
+                android:layout_width="281dp"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ingredientDetailName"
+                    android:layout_width="277dp"
+                    android:layout_height="42dp"
+                    android:layout_marginStart="2dp"
+                    android:fontFamily="@font/roboto_slab"
+                    android:gravity="center_vertical"
+                    android:text="@string/noValue"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:id="@+id/setIngredientQuantity"
+                        android:layout_width="175dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:max="500" />
+
+                    <TextView
+                        android:id="@+id/ingredientQuantity"
+                        android:layout_width="94dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/roboto_slab"
+                        android:gravity="center_vertical"
+                        android:text="@string/noValue"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nutvalLabel"
+                    android:layout_width="74dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_slab"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/nutval"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/chhyLabel"
+                    android:layout_width="69dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_slab"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/chhy"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/proteinLabel"
+                    android:layout_width="69dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_slab"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/proteins"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/fatLabel"
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_slab"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/fats"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nutvalValue"
+                    android:layout_width="74dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_slab"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/noValue"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/chhyValue"
+                    android:layout_width="74dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_slab"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/noValue"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/proteinValue"
+                    android:layout_width="74dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_slab"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/noValue"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/fatValue"
+                    android:layout_width="74dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_slab"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/noValue"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
